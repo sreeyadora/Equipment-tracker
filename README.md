@@ -1,8 +1,34 @@
-# 🛠️ Equipment Tracker
+Equipment Tracker – Full Stack Web Application
 
-A simple full-stack web application to manage and track equipment records.  
-This project was built as part of an intern take-home assignment to demonstrate frontend, backend, and basic data persistence skills.
+Equipment Tracker is a full-stack web application designed to efficiently manage and monitor equipment records in real time. The system enables users to add, view, update, delete, filter, and sort equipment data through an intuitive dashboard, making it suitable for organizations managing assets such as lab equipment, office resources, or inventory systems.
 
+The application is built using a React frontend and a Node.js + Express backend, following a clean separation of concerns. Equipment data is managed via RESTful APIs and stored in a structured JSON format, ensuring simplicity, scalability, and easy integration with databases in future enhancements.
+
+Key features include a dynamic equipment entry form, a responsive data table with filtering and sorting capabilities, and a modular component-based architecture. The project demonstrates practical experience in full-stack development, REST API design, and frontend-backend integration.
+
+🚀 Key Features
+
+Add, edit, and delete equipment records (CRUD operations)
+
+Filter and sort equipment based on multiple attributes
+
+Responsive and user-friendly UI
+
+RESTful API architecture
+
+Modular React component design
+
+Clean project structure for easy scalability
+
+🛠️ Tech Stack
+
+Frontend: React.js, JavaScript, HTML, CSS
+
+Backend: Node.js, Express.js
+
+Data Storage: JSON (can be extended to MongoDB / SQL)
+
+Version Control: Git & GitHub
 ---
 
 ## 📸 Screenshots
@@ -63,33 +89,31 @@ This project was built as part of an intern take-home assignment to demonstrate 
 ## 📂 Project Structure
 
 equipment-tracker/
-├── backend/
+├── backend/                     # Backend (Node.js + Express)
 │   ├── data/
-│   │   └── equipment.json
+│   │   └── equipment.json       # Local JSON file to store equipment data
 │   ├── routes/
-│   │   └── equipment.js
-│   ├── server.js
-│   └── package.json
+│   │   └── equipment.js         # API routes for CRUD operations
+│   ├── server.js                # Express server entry point
+│   └── package.json             # Backend dependencies and scripts
 │
-├── frontend/
+├── frontend/                    # Frontend (React)
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── EquipmentForm.js
-│   │   │   └── EquipmentTable.js
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── index.js
-│   └── package.json
+│   │   │   ├── EquipmentForm.js # Form to add/edit equipment details
+│   │   │   └── EquipmentTable.js# Table to display, filter, and sort equipment
+│   │   ├── App.js               # Main React component
+│   │   ├── App.css              # Application styling
+│   │   └── index.js             # React DOM entry point
+│   └── package.json             # Frontend dependencies and scripts
 │
-├── screenshots/
+├── screenshots/                 # UI screenshots for documentation
 │   ├── dashboard.png
 │   ├── form.png
 │   └── filter-sort.png
 │
-└── README.md
+└── README.md                    # Project documentation
 
-
----
 
 ## ▶️ How to Run Locally
 
