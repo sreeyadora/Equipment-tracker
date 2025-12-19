@@ -61,4 +61,104 @@ This project was built as part of an intern take-home assignment to demonstrate 
 ---
 
 ## 📂 Project Structure
+equipment-tracker/
+│
+├── backend/
+│ ├── data/
+│ │ └── equipment.json
+│ ├── routes/
+│ │ └── equipment.js
+│ ├── server.js
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── EquipmentForm.js
+│ │ │ └── EquipmentTable.js
+│ │ ├── App.js
+│ │ ├── App.css
+│ │ └── index.js
+│ └── package.json
+│
+├── screenshots/
+│ ├── dashboard.png
+│ ├── form.png
+│ └── filter-sort.png
+│
+└── README.md
+
+
+---
+
+## ▶️ How to Run Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/sreeyadora/equipment-tracker.git
+
+### 2️⃣ Start Backend Server
+cd equipment-tracker
+cd backend
+npm install
+npm start
+
+###Backend runs at:
+http://localhost:5000
+
+###3️⃣ Start Frontend Application
+
+Open a new terminal:
+
+cd frontend
+npm install
+npm start
+
+###Frontend runs at:
+
+http://localhost:3000
+
+---
+
+#🔌 API Endpoints
+Method	Endpoint	Description
+GET	/api/equipment	Get all equipment
+POST	/api/equipment	Add new equipment
+PUT	/api/equipment/:id	Update equipment
+DELETE	/api/equipment/:id	Delete equipment
+
+#📝 Assumptions
+
+Single-user system
+
+No authentication required
+
+JSON file used instead of a database
+
+Client-side search, filtering, and sorting
+
+#🚀 Future Improvements
+
+Replace JSON storage with a database (MongoDB / PostgreSQL)
+
+Add authentication and role-based access
+
+Improve UI using a component library
+
+Add pagination for large datasets
+
+Add unit and integration tests
+
+## 👩‍💻 Author
+
+**Sreeya Dora**  
+
+- GitHub: https://github.com/sreeyadora  
+- LinkedIn: https://www.linkedin.com/in/sreeya-dora/
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sreeya-dora/)
+# 🛠️ Equipment Tracker
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sreeya-dora/)
+
 
