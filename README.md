@@ -87,9 +87,6 @@ equipment-tracker/
 │
 └── README.md
 
-
----
-
 ## ▶️ How to Run Locally
 
 ### 1️⃣ Clone the Repository
