@@ -1,4 +1,4 @@
-Equipment Tracker – Full Stack Web Application
+🔧 Equipment Tracker – Full Stack Web Application
 
 Equipment Tracker is a full-stack web application designed to efficiently manage and monitor equipment records in real time. The system enables users to add, view, update, delete, filter, and sort equipment data through an intuitive dashboard, making it suitable for organizations managing assets such as lab equipment, office resources, or inventory systems.
 
@@ -88,6 +88,7 @@ Version Control: Git & GitHub
 
 ## 📂 Project Structure
 
+```text
 equipment-tracker/
 ├── backend/                     # Backend (Node.js + Express)
 │   ├── data/
@@ -107,12 +108,14 @@ equipment-tracker/
 │   │   └── index.js             # React DOM entry point
 │   └── package.json             # Frontend dependencies and scripts
 │
-├── screenshots/                 # UI screenshots for documentation
+├── screenshots/                 # UI screenshots
 │   ├── dashboard.png
 │   ├── form.png
 │   └── filter-sort.png
 │
 └── README.md                    # Project documentation
+```
+
 
 
 ## ▶️ How to Run Locally
