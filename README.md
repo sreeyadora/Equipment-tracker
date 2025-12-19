@@ -62,7 +62,6 @@ This project was built as part of an intern take-home assignment to demonstrate 
 
 ## 📂 Project Structure
 equipment-tracker/
-│
 ├── backend/
 │ ├── data/
 │ │ └── equipment.json
@@ -156,9 +155,6 @@ Add unit and integration tests
 - GitHub: https://github.com/sreeyadora  
 - LinkedIn: https://www.linkedin.com/in/sreeya-dora/
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sreeya-dora/)
-# 🛠️ Equipment Tracker
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/sreeya-dora/)
 
 
