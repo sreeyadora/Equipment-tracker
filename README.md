@@ -61,31 +61,33 @@ This project was built as part of an intern take-home assignment to demonstrate 
 ---
 
 ## 📂 Project Structure
+
 equipment-tracker/
 ├── backend/
-│ ├── data/
-│ │ └── equipment.json
-│ ├── routes/
-│ │ └── equipment.js
-│ ├── server.js
-│ └── package.json
+│   ├── data/
+│   │   └── equipment.json
+│   ├── routes/
+│   │   └── equipment.js
+│   ├── server.js
+│   └── package.json
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── EquipmentForm.js
-│ │ │ └── EquipmentTable.js
-│ │ ├── App.js
-│ │ ├── App.css
-│ │ └── index.js
-│ └── package.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── EquipmentForm.js
+│   │   │   └── EquipmentTable.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   └── package.json
 │
 ├── screenshots/
-│ ├── dashboard.png
-│ ├── form.png
-│ └── filter-sort.png
+│   ├── dashboard.png
+│   ├── form.png
+│   └── filter-sort.png
 │
 └── README.md
+
 
 ---
 
