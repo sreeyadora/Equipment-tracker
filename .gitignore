@@ -1,0 +1,11 @@
+# Node
+node_modules/
+
+# React build
+build/
+
+# Env
+.env
+
+# Logs
+npm-debug.log*

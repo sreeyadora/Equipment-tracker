@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c79484e8-a6c9-4cd2-8a6c-052ebd441831",
+    "name": "pigeon",
+    "type": "Mixer",
+    "status": "Active",
+    "lastCleaned": "2020-02-22"
+  },
+  {
+    "id": "1bdfdbbe-a507-4c67-b038-6f8c9d1c30e7",
+    "name": "whirlpool",
+    "type": "Machine",
+    "status": "Active",
+    "lastCleaned": "2023-03-21"
+  }
+]
